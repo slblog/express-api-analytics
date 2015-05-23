@@ -1,0 +1,33 @@
+{
+  "name": "express-api-analytics",
+  "version": "1.0.0",
+  "description": "Example application showing how to use Express API analytics with keen.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slblog/express-api-analytics.git"
+  },
+  "keywords": [
+    "Strongloop",
+    "Express",
+    "API",
+    "analytics",
+    "keen.io"
+  ],
+  "author": "Strongloop Tech Blog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slblog/express-api-analytics/issues"
+  },
+  "homepage": "https://github.com/slblog/express-api-analytics",
+  "dependencies": {
+    "ascii-table": "0.0.8",
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "keen-js": "^3.2.4",
+    "strong-express-metrics": "^1.1.0"
+  }
+}
